@@ -1,0 +1,15 @@
+Container(
+  width: double.maxFinite,
+  height: double.maxFinite,
+  decoration: BoxDecoration(   
+    image: DecorationImage(
+      image: NetworkImage('https://bit.ly/2oqNqj9'),
+    ),
+  ),
+  child: Center(
+    child: Text(
+      'Flutter.dev',
+      style: TextStyle(color: Colors.red),
+    ),
+  ),
+),
